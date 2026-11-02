@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: 'Inter', 'Noto Sans Devanagari', ui-sans-serif, system-ui, sans-serif;
+    --color-primary: #E83E46;
+    --color-primary-hover: #d23239;
+    --color-charcoal: #242B36;
+    --color-app-bg: #F6F7F9;
+}
+
+body {
+    background-color: var(--color-app-bg);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+}
